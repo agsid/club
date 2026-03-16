@@ -1,23 +1,12 @@
 {
-	"compatibility_date": "2026-03-12",
-	"compatibility_flags": [
-		"global_fetch_strictly_public"
-	],
-	"name": "",
-	"main": "@astrojs/cloudflare/entrypoints/server",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
-	"observability": {
-		"enabled": true
-	},
-	"d1_databases": [
-		{
-			"binding": "school_club_db",
-			"database_name": "school-club-db",
-			"database_id": "6d7901cb-708c-4998-9fb4-340c56e9ffbc",
-			"remote": true
-		}
-	]
+  "name": "my-school-clubs", // Add this line!
+  "compatibility_date": "2026-03-15",
+  "pages_build_output_dir": "./dist",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "school-club-db",
+      "database_id": "your-id-here"
+    }
+  ]
 }
